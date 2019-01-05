@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+    <title>FriendFinder</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Survey</h1>
+        <hr>
+        <h3>About You</h3>
+        <br>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required>
+        <br>
+        <h4>Link To Photo Image (Required)</h4>
+        <input type="text" id="photo" class="form-control" required>
+        <hr>
+        <h4>Question #1</h4>
+        <h5>Do you hold grudges?</h5>
+        <select class="custom-select mr-sm-2" id="q1">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+        <h4>Question #2</h4>
+        <h5>Do you think confessions make a relationship stronger?</h5>
+        <select class="custom-select mr-sm-2" id="q2">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+        <h4>Question #3</h4>
+        <h5>Do you think it's important for friends to have the same political beliefs?</h5>
+        <select class="custom-select mr-sm-2" id="q3">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+        <h4>Question #4</h4>
+        <h5>Will you always do the right thing, even when no one is looking?</h5>
+        <select class="custom-select mr-sm-2" id="q4">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+        <h4>Question #5</h4>
+        <h5>Is Astrology important to you?</h5>
+        <select class="custom-select mr-sm-2" id="q5">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+        <h4>Question #6</h4>
+        <h5>Do you consider yourself laid back, even in times of stress?</h5>
+        <select class="custom-select mr-sm-2" id="q6">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+        <h4>Question #7</h4>
+        <h5>Do you enjoy one and one conversations more then parties?</h5>
+        <select class="custom-select mr-sm-2" id="q7">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br><br>
+        <h4>Question #8</h4>
+        <h5>Do you think prepping for the end of the world is important?</h5>
+        <select class="custom-select mr-sm-2" id="q8">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br>
+        <br>
+        <h4>Question #9</h4>
+        <h5>Would you rather go out then stay home?</h5>
+        <select class="custom-select mr-sm-2" id="q9">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br>
+        <br>
+        <h4>Question #10</h4>
+        <h5>Is it important for you to try new foods?</h5>
+        <select class="custom-select mr-sm-2" id="q10">
+            <option selected>Select an Option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
+                aria-hidden="true"></i>
+            Submit</button>
+        <br>
+        <hr>
+        <br>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+<footer class="footer">
+    <div class="container">
+        <p><a href="/api">API Friends List</a> | <a href="">GitHub Repo</a></p>
+    </div>
+</footer>
+
+</html>
+
+<script type="text/javascript">
+
+    $("#submit").on("click", function (event) {
+        event.preventDefault();
+
+        function validate() {
+            var isValid = true;
+            $(".form-control").each(function () {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+            });
+            $(".custom-select").each(function() {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+            });
+            return isValid;
+        }
+
+        if (validate()) {
+            var userData = {
+                name: $("#name").val(),
+                photo: $("#photo").val(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+                ]
+            };
+
+            console.log(userData);
+
+            $.post("/api/friends", userData, function (data) {
+                $("#matchName").text(data.name);
+                $("#matchImg").text("src", data.photo);
+
+                $("results-modal").modal("toggle");
+            });
+        } else {
+            alert("Please fill out all fields before submitting")
+        };
+
+    });
+</script>
