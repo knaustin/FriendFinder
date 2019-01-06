@@ -19,6 +19,7 @@
   "homepage": "https://github.com/knaustin/FriendFinder#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "path": "^0.12.7",
     "require": "^2.4.20"
   }
 }
